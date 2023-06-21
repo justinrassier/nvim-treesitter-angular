@@ -6,7 +6,7 @@ local M = {}
 function M.init()
   parsers.get_parser_configs().angular = {
     install_info = {
-      url = "https://github.com/justinrassier/tree-sitter-angular",
+      url = "https://github.com/justinrassier/nvim-treesitter-angular",
       files = { "src/parser.c" },
       branch = "main",
     },
